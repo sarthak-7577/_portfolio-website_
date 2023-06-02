@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #162032;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fbf1f1;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #f1ebeb;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #f3eaea;
+    line-height: 22px;
+}
+
+.detel a{
+    background: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: ##212121;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .boy{
+    left: 45%;
+    image-resolution: 22200;
+}
+.zero{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background: #eff4fd;
+    position: relative;
+}
+.about
+{
+   
+    margin-left: 8%;
+  
+}
+.about h1
+{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.about p
+{  color: #555;
+    line-height: 22px;
+}
+
+.pero{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: #eff4fd;
+   
+}
+
+
+.education
+{
+    margin-left: 8%;
+}
+.education .box-container{
+    display:contents;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 4rem;
+}
+
+.education .box-container .box{
+    width:50rem;
+    margin:1rem 1rem;
+    padding-left: 3rem;
+    border-left: .1rem solid orange;
+    position: relative;
+}
+.education .box-container .box span{
+    font-size: 1rem;
+    color: #222;
+    background:#FEE7B3 ;
+    border-radius: 2rem;
+    padding:0.5rem 1rem;
+}
+.education  h1{
+    
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.education .box-container .box h3{
+    
+    color: #212121;
+    font-size: 22x;
+    padding-top: 1rem;
+}
+.education .box-container .box p{
+    line-height: 22px;
+    color: #555;
+}
+.education .box-container .box i{
+    position: absolute;
+    top: -1.5em; left:-2.5rem;
+    height:1rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+    background: var(--yellow);
+}
+
+.extro{
+    position: absolute;
+    width: 50%;
+    height: 78vh;
+    top: 62em; left:43em;
+    background: #eff4fd;
+   
+}
+.skill
+{
+    
+    margin-right: 0%;
+}
+.skill .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+
+}
+.skill h1
+{
+    position: absolute;
+    font-size: 50px;
+    color: #212121;
+    left: 6em;bottom :11em;
+    margin-bottom: 30px;
+
+}
+.skill .box-container .box{
+    height:5rem;
+    width:5rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.skill .box-container .box img{
+    position: relative;
+    
+    height: 110%;
+    width: 110%;
+    object-fit: cover;
+
+}
+.skill .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.metro{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: #098ca9;
+   
+}
+.contact
+{
+    margin-left:8%;
+}
+.contact h1
+{
+    position: absolute;
+    font-size: 50px;
+    color: #212121;
+    left: 11em;
+    margin-bottom: 20px;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:2rem;
+    padding-bottom:0;
+    
+}
+.contact .row form{
+    flex:1 1 35rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 2rem;
+}
+.contact .row form .box{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    background: #eff4fd;
+    color: #555;
+    text-transform: none;
+    font-size: 1rem;
+    width: 85%;
+    border-radius: 2rem ;
+    border: solid orange;
+
+}
+ .contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height:10rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: orange;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    padding:0.5rem 0;
+    font-size: 20px;
+    color: orange;
+    line-height: 22px;
+    color: #212121;
+    font-weight: normal;
+}
+.contact .row .content .info  .btn{
+    padding-right:1rem;
+    color: var(orange);
+    color 
+
+}
+.s a
+{
+    background: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: ##212121;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.social{
+    position: absolute;
+    width: 25%;
+    height: 10vh;
+    top: 50em; left:50em;
+    background: #eff4fd;
+    padding: auto;
+}
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+.social a:hover{
+    color: orange;
+}
+footer
+{
+    position: relative;
+    top:80em;
+    background-color: #098ca9;
+    align-items: center;
+}
